@@ -23,3 +23,9 @@ Route::get('/', function () {
         'foo' => 'bar',
     ]);
 });
+
+Route::get('/about', function () {
+    return Inertia::render('About', [
+        'foo' => 'bar',
+    ]);
+});
