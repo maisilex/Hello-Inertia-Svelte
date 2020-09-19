@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Inertia\Inertia;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,5 +19,7 @@ Route::get('/welcome', function () {
 });
 
 Route::get('/', function () {
-    return 'Hello World!';
+    return Inertia::render('Welcome', [
+        'foo' => 'bar',
+    ]);
 });
