@@ -29,3 +29,7 @@ Route::get('/about', function () {
         'foo' => 'bar',
     ]);
 });
+
+Route::get('/contact', function () {
+    return Inertia::render('Contact');
+});
