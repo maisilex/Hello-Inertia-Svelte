@@ -1,15 +1,16 @@
 <script>
   import { inertia } from '@inertiajs/inertia-svelte'
-
+  
   export let title
 </script>
   
 <svelte:head>
-  <title>{$title ? `${$title} - Awesome App` : 'Awesome App'}</title>
+  <!-- <title>{title ? `${title} - Awesome App` : 'Awesome App'}</title> -->
+  <title>{title} - Awesome App</title>
 </svelte:head>
   
 <main>
-  <header>
+  <header class='capitalize'>
     <a use:inertia href="/">home</a>
     <a use:inertia href="/about">about</a>
     <a use:inertia href="/contact">contact</a>
