@@ -1,7 +1,5 @@
 <script>
   import Layout from '@/Shared/Layout.svelte'
-
-  // export let user
 </script>
 
 <Layout title="About">

@@ -19,15 +19,11 @@ Route::get('/welcome', function () {
 });
 
 Route::get('/', function () {
-    return Inertia::render('Welcome', [
-        'title' => 'Welcome',
-    ]);
+    return Inertia::render('Welcome');
 });
 
 Route::get('/about', function () {
-    return Inertia::render('About', [
-        'title' => 'About',
-    ]);
+    return Inertia::render('About');
 });
 
 Route::get('/contact', function () {
