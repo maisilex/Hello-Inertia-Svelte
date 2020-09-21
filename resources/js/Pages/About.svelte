@@ -1,9 +1,10 @@
 <script>
-  import { inertia } from '@inertiajs/inertia-svelte'
+  import Layout from '@/Shared/Layout.svelte'
+
+  // export let user
 </script>
 
-<div>
-  <h1>This is about page</h1>
-  <a href="/" use:inertia>Welcome</a>
-  <div>Looo</div>
-</div>
+<Layout title="About">
+  <h1>About</h1>
+  <p>Hello Layout, welcome to your first Inertia app!</p>
+</Layout>

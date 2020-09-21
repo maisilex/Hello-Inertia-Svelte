@@ -20,13 +20,13 @@ Route::get('/welcome', function () {
 
 Route::get('/', function () {
     return Inertia::render('Welcome', [
-        'foo' => 'bar',
+        'title' => 'Welcome',
     ]);
 });
 
 Route::get('/about', function () {
     return Inertia::render('About', [
-        'foo' => 'bar',
+        'title' => 'About',
     ]);
 });
 

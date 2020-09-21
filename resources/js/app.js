@@ -8,6 +8,6 @@ new InertiaApp({
   target: app,
   props: {
     initialPage: JSON.parse(app.dataset.page),
-    resolveComponent: name => require(`./Pages/${name}.svelte`),
+    resolveComponent: name => import(`./Pages/${name}.svelte`),
   },
 })
