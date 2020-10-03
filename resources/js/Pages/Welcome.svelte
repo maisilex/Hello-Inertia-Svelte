@@ -1,17 +1,14 @@
 <script context="module">
-  import Layout, { title } from '@/Shared/Layout.svelte'
-
+  import Layout from '@/Shared/Layout.svelte'
   export const layout = Layout
 </script>
 
 <script>
-  import { inertia } from '@inertiajs/inertia-svelte'
-  $title = 'Welcome'
-  export let user
+
+  export let user = 'Alex'
 </script>
 
-
 <h1>Welcome</h1>
-<p>Hello {user = 'Alex'}, welcome to your first Inertia app!</p>
+<p>Hello {user}, welcome to your first Inertia app!</p>
 
 
