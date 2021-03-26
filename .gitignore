@@ -15,3 +15,6 @@ yarn-error.log
 /public/js
 
 /public/mix-manifest.json
+
+supervisord.log
+supervisord.pid
