@@ -1,7 +1,9 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
+use Illuminate\Support\Facades\Route;
+use Illuminate\Foundation\Application;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -18,4 +20,8 @@ Route::get('/welcome', function () {
     return view('welcome');
 });
 
-Route::inertia('/', 'Welcome');
+Route::inertia('/', 'Welcome', [
+    // export data to inertia
+    'laravelVersion' => Application::VERSION,
+    'phpVersion' => PHP_VERSION,
+]);

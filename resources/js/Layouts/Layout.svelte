@@ -20,6 +20,6 @@
 
 <Navbar />
 
-<main class="bg-white min-h-screen flex justify-center items-center">
+<main class="bg-white min-h-screen flex flex-col justify-center items-center">
   <slot />
 </main>
