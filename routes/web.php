@@ -25,3 +25,15 @@ Route::inertia('/', 'Welcome', [
     'laravelVersion' => Application::VERSION,
     'phpVersion' => PHP_VERSION,
 ]);
+
+Route::inertia('/about', 'About', [
+    // export data to inertia
+    'laravelVersion' => Application::VERSION,
+    'phpVersion' => PHP_VERSION,
+]);
+
+Route::inertia('/contact', 'Contact', [
+    // export data to inertia
+    'laravelVersion' => Application::VERSION,
+    'phpVersion' => PHP_VERSION,
+]);
