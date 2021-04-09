@@ -24,14 +24,14 @@
      
      <!-- Open Graph / Facebook -->
    <meta property="og:type" content="website">
-   <meta property="og:url" content="https://inertia.maisilex.com/">
+   <meta property="og:url" content="https://example.com/">
    <meta property="og:title" content="Example title">
    <meta property="og:description" content="Example description">
    <meta property="og:image" content="">
      
      <!-- Twitter -->
    <meta property="twitter:card" content="summary_large_image">
-   <meta property="twitter:url" content="https://inertia.maisilex.com/">
+   <meta property="twitter:url" content="https://example.com/">
    <meta property="twitter:title" content="Example title">
    <meta property="twitter:description" content="Example description">
    <meta property="twitter:image" content="">
