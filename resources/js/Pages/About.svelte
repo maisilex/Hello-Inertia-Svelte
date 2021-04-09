@@ -1,5 +1,5 @@
 <script context="module">
-    import Layout, { title } from '@/Shared/Layout.svelte'
+    import Layout, { title, metaTitle } from '@/Shared/Layout.svelte'
     export const layout = Layout
 </script>
     
@@ -12,6 +12,7 @@
     // import SearchFilter from '@/Shared/SearchFilter.svelte'
     // export let contacts = []
     $title = 'About'
+    $metaTitle = 'Kyky'
     // let filters = {
     //   trashed: $page.props.filters.trashed,
     // }
