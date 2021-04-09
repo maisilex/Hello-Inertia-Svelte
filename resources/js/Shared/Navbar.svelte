@@ -57,6 +57,7 @@
 
   <!-- mobile menu -->
   <div class="mobile-menu hidden md:hidden">
+    <a href="/" class="block py-2 px-4 text-sm hover:bg-gray-200" use:inertia>Home</a>
     <a href="/about" class="block py-2 px-4 text-sm hover:bg-gray-200" use:inertia>About</a>
     <a href="/contact" class="block py-2 px-4 text-sm hover:bg-gray-200" use:inertia>Contact</a>
   </div>
