@@ -3,6 +3,7 @@
 use Inertia\Inertia;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Foundation\Application;
+use App\Http\Controllers\EventsController;
 
 
 /*
@@ -37,3 +38,5 @@ Route::inertia('/contact', 'Contact', [
     'laravelVersion' => Application::VERSION,
     'phpVersion' => PHP_VERSION,
 ]);
+
+Route::get('/events', [EventsController::class, 'index']);

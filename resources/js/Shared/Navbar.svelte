@@ -31,6 +31,7 @@
           <a href="/" class="py-5 px-3   {isUrl('/$') ? 'text-yellow-500 underline' : 'text-gray-700 group-hover:text-yellow-500'}" use:inertia>Home</a>
           <a href="/about" class="py-5 px-3   {isUrl('/about/*') ? 'text-yellow-500 underline' : 'text-gray-700 group-hover:text-yellow-500'}" use:inertia>About</a>
           <a href="/contact" class="py-5 px-3 {isUrl('/contact/*') ? 'text-yellow-500 underline' : 'text-gray-700 group-hover:text-yellow-500'}" use:inertia>Contact</a>
+          <a href="/events" class="uppercase py-5 px-3 {isUrl('/events/*') ? 'text-yellow-500 underline' : 'text-gray-700 group-hover:text-yellow-500'}" use:inertia>events</a>
 
 
 
@@ -60,6 +61,7 @@
     <a href="/" class="block py-2 px-4 text-sm hover:bg-gray-200" use:inertia>Home</a>
     <a href="/about" class="block py-2 px-4 text-sm hover:bg-gray-200" use:inertia>About</a>
     <a href="/contact" class="block py-2 px-4 text-sm hover:bg-gray-200" use:inertia>Contact</a>
+    <a href="/events" class="uppercase block py-2 px-4 text-sm hover:bg-gray-200" use:inertia>events</a>
   </div>
 </nav>
 
